@@ -1,4 +1,4 @@
-# Banking Application
+# Payments App
 
 This is a full-stack banking application built using Node.js, Express, MongoDB, and React. The application allows users to sign up, sign in, view their balance, and transfer money to other users.
 
@@ -56,7 +56,7 @@ To run this application locally, follow these steps:
 
 3. **Set up configuration:**
 
-   Edit your JWT password and MongoDB connection string in JWT_PASSWORD and DB_CONNECTION_STRING variables respectively
+   Edit your JWT password and MongoDB connection string in JWT_PASSWORD and DB_CONNECTION_STRING variables in `config.js` respectively
 
 4. **Start the backend server:**
 
@@ -155,6 +155,16 @@ The frontend is built with React and includes the following features:
 
 - **SendMoney**
   - Allows authenticated users to transfer money to other users.
+
+### Node Packages Used in Frontend
+
+- `axios` - Promise based HTTP client for the browser and node.js
+- `react` - A JavaScript library for building user interfaces
+- `react-dom` - Serves as the entry point to the DOM and server renderers for React
+- `react-router-dom` - DOM bindings for React Router
+- `react-toastify` - React notification made easy
+- `uuid` - For creating unique identifiers
+- `zod` - TypeScript-first schema declaration and validation library
 
 ## API Endpoints
 
